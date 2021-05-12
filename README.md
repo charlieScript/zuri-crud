@@ -5,13 +5,13 @@
 - GET  `/`
     > gets all the DATA
 
-- POST  `/todos`
-    > ADDS A DATA 
+- POST  `/`
+    > ADDS A DATA
     ```JS
     BODY
     {
-      "todoID": 1,
-      "todo": "todo"
+      "firstname": "sample",
+      "lastname": "sample"
     }
     ```
 - PUT  `/:firstname`
@@ -19,10 +19,11 @@
     ``
     ```JS
     {
-      "todo": "todo"
+      "firstname": "sample",
+      "lastname": "sample"
     }
     ```
 - DELETE  `/:firstname`
-    > gets all the todos
+    > Deletes the data passed in the parameter
 
-
+Heroku link : https://pure-falls-56802.herokuapp.com/
